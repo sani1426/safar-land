@@ -19,8 +19,7 @@
 
 
 
-@import "tailwindcss";
-@tailwind utilities;
+
 
 * {
   margin: 0;
@@ -44,7 +43,7 @@ ul {
   margin: 0 auto;
 }
 
-/* hero section */
+
 
 .hero_section {
   width: 100vw;
