@@ -29,7 +29,7 @@ ul {
   height: 100vh;
   overflow-x: hidden;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url(../../public/heaader.jpg);
+    url(../public/heaader.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
