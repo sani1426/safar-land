@@ -1,3 +1,24 @@
+@font-face {
+  font-family: diroz;
+  src: url(../public/font/diroz/Dirooz.ttf)format(truetype);
+  src: url(../public/font/diroz/Farsi-Digits-Without-Latin/Dirooz-FD-WOL.ttf)format(truetype);
+  src: url(../public/font/diroz/Dirooz.woff)format(woff);
+  src: url(../public/font/diroz/Dirooz.woff2)format(woff2);
+}
+@font-face {
+  font-family: gandom;
+  src: url(../public/font/gandom/Gandom.ttf)format(truetype);
+  src: url(../public/font/gandom/Gandom.woff)format(woff);
+}
+@font-face {
+  font-family: nastaligh;
+  src: url(../public/font/nastaligh/iranNastaliq.ttf)format(truetype);
+ 
+}
+
+
+
+
 @import "tailwindcss";
 @tailwind utilities;
 
@@ -5,6 +26,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: diroz;
 }
 html {
   scroll-behavior: smooth;
@@ -12,7 +34,7 @@ html {
 a {
   text-decoration: none;
   color: inherit;
-  font-family: vazir;
+  font-family: diroz;
 }
 ul {
   list-style-type: none;
@@ -25,19 +47,16 @@ ul {
 /* hero section */
 
 .hero_section {
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url(../public/heaader.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.header {
-  background-color: #ffffff;
-  padding: 1.5rem 0.9rem;
-  box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+
+
+.header{
+  @apply bg-[#ffffff] py-[1.5rem] px-[.9rem] shadow-md
 }
 .nav-head {
   background-color: rgb(233, 230, 230);
@@ -198,10 +217,9 @@ ul {
   top: 0.5rem;
   cursor: pointer;
   transition: all ease 0.2s;
+  border-radius: 100%;
 }
-.close-button:hover {
-  color: red;
-}
+
 
 .title {
   color: white;
@@ -212,8 +230,8 @@ ul {
 .title-color {
   color: orangered;
   font-size: 3rem;
-  /* font-family: "sols"; */
-  animation: title-color-animation 1s;
+  font-family: "nastaligh";
+    animation: title-color-animation 1s;
   margin-bottom: 2rem;
 }
 .header-desc {

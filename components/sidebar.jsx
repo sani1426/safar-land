@@ -4,11 +4,11 @@ const Sidebar = () => {
   return (
     <aside class='sidebar' id='sidebar'>
       <div>
-        <button class='close-button'>
+        <button class='close-button text-xl'>
           <AiOutlineClose />
         </button>
       </div>
-      <div class='nav-side'>
+      <div class='nav-side  hover:bg-amber-600 hover:text-white'>
         <ul class='nav_list_side'>
           <li class='nav-item nav_item_side'>
             <a href='#'>خانه</a>
@@ -23,7 +23,7 @@ const Sidebar = () => {
             <a href='#'>اجاره ساختمان</a>
             <div class='dropdown_container'>
               <div class='dropdown_img_container'>
-                <img src='./public/heaader.jpg' alt='' />
+          
               </div>
               <div>
                 <ul>

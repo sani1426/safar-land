@@ -4,13 +4,15 @@ import { MdLogin } from "react-icons/md";
 import { RiMenuFill } from "react-icons/ri";
 import { IoPersonCircleOutline } from "react-icons/io5";
 
+
+
 const Navigation = () => {
     return ( 
         <header class="header">
         <div class="row">
           <Link href="/" class="logo_container">
             سفر لنــــــــــــد
-            <span>
+            <span className="text-xl">
             <FcMindMap />
             </span>
           </Link>
@@ -23,7 +25,7 @@ const Navigation = () => {
                 <Link href="#">اجاره ساختمان</Link>
                 <div class="dropdown_container">
                   <div class="dropdown_img_container">
-                    <img src="./public/heaader.jpg" alt="" />
+                
                   </div>
                   <div>
                     <ul>
@@ -38,14 +40,20 @@ const Navigation = () => {
           </div>
           <div class="sign_container">
             <Link class="signup" href="#">
-            <IoPersonCircleOutline />
+              <span className="text-lg  hover:bg-amber-600 hover:text-white">
+              <IoPersonCircleOutline />
+              </span>
+            
               <span>ثبت نام</span>
             </Link>
             <Link class="signin" href="#">
-            <MdLogin />
+              <span className="text-lg  hover:bg-amber-600 hover:text-white">
+              <MdLogin />
+              </span>
+           
               <span>ورود</span>
             </Link>
-            <button id="menu-button">
+            <button className="text-2xl hover:bg-amber-600 hover:text-white transition-all duration-300 rounded-full" id="menu-button ">
              <RiMenuFill />
             </button>
           </div>
