@@ -6,7 +6,7 @@ import Navigation from "./navigation";
 
 const Header = () => {
     return ( 
-        <header className="hero_section w-[100vw] h-[100vh] overflow-x-hidden">
+        <header className="hero_section  w-[100vw] h-[60vh] md:h-[100vh] overflow-x-hidden">
             <NavInfo />
             <Navigation />
             <HeaderTitle/>
