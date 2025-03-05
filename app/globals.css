@@ -10,11 +10,7 @@
   src: url(../public/font/gandom/Gandom.ttf)format(truetype);
   src: url(../public/font/gandom/Gandom.woff)format(woff);
 }
-@font-face {
-  font-family: nastaligh;
-  src: url(../public/font/nastaligh/iranNastaliq.ttf)format(truetype);
- 
-}
+
 
 
 
@@ -25,7 +21,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: diroz;
+  font-family: 'diroz';
 }
 html {
   scroll-behavior: smooth;
@@ -33,7 +29,7 @@ html {
 a {
   text-decoration: none;
   color: inherit;
-  font-family: diroz;
+  font-family: 'diroz';
 }
 ul {
   list-style-type: none;
@@ -254,7 +250,7 @@ ul {
 .title-color {
   color: orangered;
   font-size: 3rem;
-  font-family: "nastaligh";
+
     animation: title-color-animation 1s;
   margin-bottom: 2rem;
 }
