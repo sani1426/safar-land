@@ -5,7 +5,7 @@ const NavInfo = () => {
     return ( 
         <div class="nav-head">
         <ul>
-          <li><Link href="#">درباره ما</Link></li>
+          <li><Link href="/aboutus">درباره ما</Link></li>
           <li><Link href="#">قوانین</Link></li>
           <li><Link href="#">تماس با ما</Link></li>
         </ul>

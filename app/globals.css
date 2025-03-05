@@ -47,6 +47,9 @@ ul {
 /* hero section */
 
 .hero_section {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url(../public/heaader.jpg);
   background-position: center;
@@ -56,7 +59,19 @@ ul {
 
 
 .header{
-  @apply bg-[#ffffff] py-[1.5rem] px-[.9rem] shadow-md
+  background-color: #ffffff;
+  padding: 1.5rem .9rem;
+}
+.menu-button{
+  font-size: 2rem;
+  transition: all ease .3s;
+  border-radius: 100%;
+  background-color: white;
+}
+.menu-button:hover{
+  background-color: orangered;
+  color: white;
+
 }
 .nav-head {
   background-color: rgb(233, 230, 230);
@@ -90,7 +105,9 @@ ul {
   font-size: 1.5rem;
   color: orangered;
 }
-
+.logo_container span{
+  font-size: 2rem;
+}
 .nav_list {
   display: flex;
   gap: 2rem;
@@ -120,6 +137,9 @@ ul {
   transition: all ease-in-out 0.4s;
   box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
 }
+.signup span{
+  font-size: 2rem;
+}
 .signin {
   padding: 0.5rem 1rem;
   border-radius: 10px;
@@ -132,6 +152,10 @@ ul {
   gap: 0.75rem;
   transition: all ease-in-out 0.4s;
 }
+.signin span{
+  font-size: 2rem;
+}
+
 .sign_container button {
   background-color: transparent;
   display: none;
@@ -218,6 +242,7 @@ ul {
   cursor: pointer;
   transition: all ease 0.2s;
   border-radius: 100%;
+  font-size: 2rem;
 }
 
 
@@ -288,6 +313,7 @@ ul {
   border-radius: 10px;
   cursor: pointer;
   transition: all ease 0.4s;
+  font-size: 2rem;
 }
 .header-search span:hover {
   background-color: rgb(255, 120, 71);
@@ -325,6 +351,9 @@ ul {
   }
   .nav-head{
     display: none;
+  }
+  .hero_section{
+    height: 60vh;
   }
 
 }

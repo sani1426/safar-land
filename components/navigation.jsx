@@ -12,14 +12,14 @@ const Navigation = () => {
         <div class="row">
           <Link href="/" class="logo_container">
             سفر لنــــــــــــد
-            <span className="text-xl">
+            <span >
             <FcMindMap />
             </span>
           </Link>
           <div class="nav">
             <ul class="nav_list">
               <li class="nav-item"><Link href="#">خانه</Link></li>
-              <li class="nav-item"><Link href="#">بلاگ</Link></li>
+              <li class="nav-item"><Link href="/aboutus">درباره ما</Link></li>
               <li class="nav-item"><Link href="#">اقامتگاه ها</Link></li>
               <li class="nav-item dropdown">
                 <Link href="#">اجاره ساختمان</Link>
@@ -40,20 +40,20 @@ const Navigation = () => {
           </div>
           <div class="sign_container">
             <Link class="signup" href="#">
-              <span className="text-lg  hover:bg-amber-600 hover:text-white">
+              <span >
               <IoPersonCircleOutline />
               </span>
             
               <span>ثبت نام</span>
             </Link>
             <Link class="signin" href="#">
-              <span className="text-lg  hover:bg-amber-600 hover:text-white">
+              <span >
               <MdLogin />
               </span>
            
               <span>ورود</span>
             </Link>
-            <button className="text-2xl hover:bg-amber-600 hover:text-white transition-all duration-300 rounded-full" id="menu-button ">
+            <button className="menu-button" >
              <RiMenuFill />
             </button>
           </div>

@@ -4,7 +4,7 @@ const Sidebar = () => {
   return (
     <aside class='sidebar' id='sidebar'>
       <div>
-        <button class='close-button text-xl'>
+        <button class='close-button'>
           <AiOutlineClose />
         </button>
       </div>
