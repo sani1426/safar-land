@@ -1,5 +1,7 @@
 
+import { AppContextProvider } from "@/context/AppContext";
 import "./globals.css";
+import Sidebar from "@/components/sidebar";
 
 
 
@@ -12,10 +14,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
+      <AppContextProvider >
       <body
       >
         {children}
+        <Sidebar />
       </body>
+      </AppContextProvider>
     </html>
   );
 }

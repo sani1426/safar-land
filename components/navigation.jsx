@@ -3,28 +3,32 @@ import { FcMindMap } from "react-icons/fc";
 import { MdLogin } from "react-icons/md";
 import { RiMenuFill } from "react-icons/ri";
 import { IoPersonCircleOutline } from "react-icons/io5";
+import { useAppContext } from "@/context/AppContext";
 
 
 
 const Navigation = () => {
+
+  const {OpenMenu} = useAppContext()
+
     return ( 
-        <header class="header">
-        <div class="row">
+        <header className="header">
+        <div className="row">
           <Link href="/" class="logo_container">
             سفر لنــــــــــــد
             <span >
             <FcMindMap />
             </span>
           </Link>
-          <div class="nav">
-            <ul class="nav_list">
-              <li class="nav-item"><Link href="#">خانه</Link></li>
-              <li class="nav-item"><Link href="/aboutus">درباره ما</Link></li>
-              <li class="nav-item"><Link href="#">اقامتگاه ها</Link></li>
-              <li class="nav-item dropdown">
+          <div className="nav">
+            <ul className="nav_list">
+              <li className="nav-item"><Link href="#">خانه</Link></li>
+              <li className="nav-item"><Link href="/aboutus">درباره ما</Link></li>
+              <li className="nav-item"><Link href="#">اقامتگاه ها</Link></li>
+              <li className="nav-item dropdown">
                 <Link href="#">اجاره ساختمان</Link>
-                <div class="dropdown_container">
-                  <div class="dropdown_img_container">
+                <div className="dropdown_container">
+                  <div className="dropdown_img_container">
                 
                   </div>
                   <div>
@@ -38,7 +42,7 @@ const Navigation = () => {
               </li>
             </ul>
           </div>
-          <div class="sign_container">
+          <div className="sign_container">
             <Link class="signup" href="#">
               <span className="text-xl" >
               <IoPersonCircleOutline />
@@ -58,7 +62,7 @@ const Navigation = () => {
             
           
           </div>
-          <span className="text-3xl py-[.5rem] px-[.7rem] md:hidden">
+          <span onClick={OpenMenu} className="text-3xl py-[.5rem] px-[.7rem] bg-transparent text-black md:hidden">
               <RiMenuFill />
               </span>
         </div>

@@ -45,9 +45,6 @@ ul {
 
 
 .hero_section {
-  width: 100vw;
-  height: 100vh;
-  overflow-x: hidden;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url(../public/heaader.jpg);
   background-position: center;
@@ -60,17 +57,7 @@ ul {
   background-color: #ffffff;
   padding: 1.5rem .9rem;
 }
-.menu-button{
-  font-size: 2rem;
-  transition: all ease .3s;
-  border-radius: 100%;
-  background-color: white;
-}
-.menu-button:hover{
-  background-color: orangered;
-  color: white;
 
-}
 .nav-head {
   background-color: rgb(233, 230, 230);
   padding: 0.5rem 1.5rem;
@@ -150,12 +137,7 @@ ul {
 }
 
 
-.sign_container button {
-  background-color: transparent;
-  display: none;
-  border: transparent;
-  cursor: pointer;
-}
+
 .signin:hover {
   background: linear-gradient(to right, #f7ba2c, #d3321d);
   color: #ffffff;
@@ -250,13 +232,14 @@ ul {
   font-size: 3rem;
 
     animation: title-color-animation 1s;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 .header-desc {
   color: white;
 
   font-size: 1rem;
   animation: title-color-animation 1s;
+  margin-top: .5rem;
 }
 
 @keyframes title-animation {
@@ -338,11 +321,12 @@ ul {
   }
   .title-color{
     font-size: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
   .nav-head{
     display: none;
   }
+  
 
 
 }

@@ -1,25 +1,27 @@
+import { useAppContext } from '@/context/AppContext';
 import { AiOutlineClose } from 'react-icons/ai';
 
 const Sidebar = () => {
+  const {CloseMenu , activeMenu} = useAppContext()
   return (
-    <aside class='sidebar' id='sidebar'>
+    <aside className={`sidebar ${activeMenu ? 'show-sidebar' : ''}`} >
       <div>
-        <button class='close-button'>
+        <button onClick={CloseMenu} className='close-button'>
           <AiOutlineClose />
         </button>
       </div>
-      <div class='nav-side  hover:bg-amber-600 hover:text-white'>
-        <ul class='nav_list_side'>
-          <li class='nav-item nav_item_side'>
+      <div className='nav-side  hover:bg-amber-600 hover:text-white'>
+        <ul className='nav_list_side'>
+          <li className='nav-item nav_item_side'>
             <a href='#'>خانه</a>
           </li>
-          <li class='nav-item nav_item_side'>
+          <li className='nav-item nav_item_side'>
             <a href='#'>درباره ما</a>
           </li>
-          <li class='nav-item nav_item_side'>
+          <li className='nav-item nav_item_side'>
             <a href='#'>تماس با ما</a>
           </li>
-          <li class='nav-item dropdown nav_item_side'>
+          <li className='nav-item dropdown nav_item_side'>
             <a href='#'>اجاره ساختمان</a>
             <div class='dropdown_container'>
               <div class='dropdown_img_container'>
