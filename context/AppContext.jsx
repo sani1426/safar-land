@@ -1,30 +1,28 @@
 "use client"
 
 import { createContext, useContext, useReducer } from "react"
-import { AppReducer } from "./AppReducer"
+import { appReducer } from "./AppReducer"
 
 
-const AppContext = createContext()
+const AppContext = createContext();
 
 const initialState = {
-    activeMenu : false
-}
+  activeMenu: false,
+  isdarkMode: false ,
+};
 
 
 
 export const AppContextProvider = ({children}) => {
 
-const [state , dispatch] = useReducer(initialState , AppReducer)
+    const [state, dispatch] = useReducer(appReducer, initialState);
 
-function OpenMenu(){
-    dispatch({type : "OPENMENU" , payload : true})
-}
-function CloseMenu(){
-    dispatch({type : "CLOSEMENU" , payload : false})
+function ShowMenu(menu){
+    dispatch({ type : "SHOWMENU" , payload : menu})
 }
 
     return (
-        <AppContext.Provider value={{...state , OpenMenu , CloseMenu}}>
+        <AppContext.Provider value={{...state , ShowMenu}}>
             {children}
         </AppContext.Provider>
     )

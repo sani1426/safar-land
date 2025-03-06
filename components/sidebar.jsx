@@ -4,11 +4,11 @@ import { useAppContext } from '@/context/AppContext';
 import { AiOutlineClose } from 'react-icons/ai';
 
 const Sidebar = () => {
-  const {CloseMenu , activeMenu} = useAppContext()
+  const {ShowMenu , activeMenu} = useAppContext()
   return (
     <aside className={`sidebar ${activeMenu ? 'show-sidebar' : ''}`} >
       <div>
-        <button onClick={CloseMenu} className='close-button'>
+        <button onClick={()=> ShowMenu(false)} className='close-button'>
           <AiOutlineClose />
         </button>
       </div>

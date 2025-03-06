@@ -11,7 +11,7 @@ import { useAppContext } from "@/context/AppContext";
 
 const Navigation = () => {
 
-  const {OpenMenu} = useAppContext()
+  const {ShowMenu , activeMenu} = useAppContext()
 
     return ( 
         <header className="header">
@@ -64,7 +64,7 @@ const Navigation = () => {
             
           
           </div>
-          <span onClick={OpenMenu} className="text-3xl py-[.5rem] px-[.7rem] bg-transparent text-black md:hidden">
+          <span onClick={()=> ShowMenu(!activeMenu)} className="text-3xl py-[.5rem] px-[.7rem] bg-transparent text-black md:hidden">
               <RiMenuFill />
               </span>
         </div>

@@ -1,11 +1,8 @@
 
 
-export const AppReducer = (state , action)=>{
+export const appReducer = (state , action)=>{
     switch(action.type) {
-        case 'OPENMENU' : {
-            return {...state ,  activeMenu : action.payload}
-        }
-        case 'CLOSEMENU' : {
+        case 'SHOWMENU' : {
             return {...state ,  activeMenu : action.payload}
         }
     }
