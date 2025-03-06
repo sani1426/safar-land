@@ -19,7 +19,7 @@ const contentStyle = {
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true ,
-    slidesToShow: 9,
+    slidesToShow: 8,
     slidesToScroll: 2,
     initialSlide: 0,
     speed: 500,
@@ -27,7 +27,7 @@ const contentStyle = {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
           dots: false
@@ -36,7 +36,7 @@ const contentStyle = {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2
         }
@@ -44,7 +44,7 @@ const contentStyle = {
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 1
         }
       }
