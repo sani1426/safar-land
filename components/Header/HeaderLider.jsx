@@ -2,22 +2,21 @@
 
 import React from 'react';
 import { Carousel } from 'antd';
+import { header_Slidde_src } from '@/constance';
 
 
 const HeaderCarousel = () => (
   <Carousel autoplay  draggable={true} autoplaySpeed={2000} infinite={true}>
-    <div>
-      <img  src="/header-carousel-slide1" alt="" />
-    </div>
-    <div>
-    <img  src="/header-carousel-slide2" alt="" />
-    </div>
-    <div>
-    <img  src="/header-carousel-slide3" alt="" />
-    </div>
-    <div>
-    <img  src="/header-carousel-slide1" alt="" />
-    </div>
+
+    {
+        header_Slidde_src.map(img => (
+            <div  key={img.id}>
+            <img  src={img.src} alt="" />
+          </div>
+        ))
+    }
+   
+
   </Carousel>
 );
 export default HeaderCarousel;
