@@ -1,8 +1,11 @@
 
 import { AppContextProvider } from "@/context/AppContext";
 import "./globals.css";
-import Sidebar from "@/components/sidebar";
 
+import { AntdRegistry } from '@ant-design/nextjs-registry';
+import NavInfo from "@/components/Header/nav-1";
+import Navigation from "@/components/Header/navigation";
+import Sidebar from "@/components/sidebar";
 
 
 
@@ -17,7 +20,9 @@ export default function RootLayout({ children }) {
       <AppContextProvider >
       <body
       >
-        {children}
+          <NavInfo />
+            <Navigation />
+            <AntdRegistry>{children}</AntdRegistry>
         <Sidebar />
       </body>
       </AppContextProvider>

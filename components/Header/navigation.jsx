@@ -1,17 +1,17 @@
-"use client"
+
 
 import Link from "next/link";
 import { FcMindMap } from "react-icons/fc";
 import { MdLogin } from "react-icons/md";
-import { RiMenuFill } from "react-icons/ri";
+
 import { IoPersonCircleOutline } from "react-icons/io5";
-import { useAppContext } from "@/context/AppContext";
+
+import ShowSideBarBtn from "../UI/ShowSidebarButton";
 
 
 
 const Navigation = () => {
 
-  const {ShowMenu , activeMenu} = useAppContext()
 
     return ( 
         <header className="header">
@@ -64,9 +64,7 @@ const Navigation = () => {
             
           
           </div>
-          <span onClick={()=> ShowMenu(!activeMenu)} className="text-3xl py-[.5rem] px-[.7rem] bg-transparent text-black md:hidden">
-              <RiMenuFill />
-              </span>
+         <ShowSideBarBtn />
         </div>
       </header>
      );

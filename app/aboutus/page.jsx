@@ -1,5 +1,5 @@
-import NavInfo from "@/components/nav-1";
-import Navigation from "@/components/navigation";
+import NavInfo from "@/components/Header/nav-1";
+import Navigation from "@/components/Header/navigation";
 
 const AboutUs = () => {
   return (
