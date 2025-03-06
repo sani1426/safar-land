@@ -6,11 +6,12 @@ import { destination_Slidde_src } from '@/constance';
 
 
 const contentStyle = {
-    height: '100px',
+    height: '60px',
     color: '#fff',
     lineHeight: '160px',
     textAlign: 'center',
-    borderRadius : '10px'
+    borderRadius : '10px',
+    paddingX : '.7rem'
   };
   let settings = {
     dots: false,
@@ -19,7 +20,7 @@ const contentStyle = {
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true ,
-    slidesToShow: 8,
+    slidesToShow: 7,
     slidesToScroll: 2,
     initialSlide: 0,
     speed: 500,
@@ -57,7 +58,8 @@ const HeaderCarousel = () => (
     {
         destination_Slidde_src.map(img => (
             <div className={contentStyle}  key={img.id}>
-            <img className='w-full h-full rounded-md object-cover'  src={img.src} alt="" />
+            <img className='w-full h-[90%] rounded-md object-cover'  src={img.src} alt="" />
+            <p className='text-orange-500 pt-[10px]'>{img.title}</p>
           </div>
         ))
     }
@@ -67,7 +69,7 @@ const HeaderCarousel = () => (
 );
 export default HeaderCarousel;
 
-
+ 
 
 
 
