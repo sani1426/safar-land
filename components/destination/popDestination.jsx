@@ -1,3 +1,4 @@
+import PopDesCarousel from "./popDesCarousel";
 
 
 const PopularDestination = () => {
