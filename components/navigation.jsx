@@ -53,8 +53,11 @@ const Navigation = () => {
            
               <span>ورود</span>
             </Link>
-            <button className="menu-button" >
-             <RiMenuFill />
+            <button className="menu-button " >
+              <span className="text-xl px-1 py-3">
+              <RiMenuFill />
+              </span>
+            
             </button>
           </div>
         </div>

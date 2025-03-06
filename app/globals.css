@@ -11,6 +11,9 @@
   src: url(../public/font/gandom/Gandom.woff)format(woff);
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
 
@@ -122,7 +125,7 @@ ul {
 .signup {
   padding: 0.5rem 1rem;
   border-radius: 10px;
-  background: linear-gradient(to right, rgb(223, 57, 35), rgb(218, 151, 112));
+  background: linear-gradient(to right, #f7ba2c, #d3321d);
   color: white;
   border: 2px solid rgb(228, 69, 48);
   font-size: 1rem;
@@ -154,7 +157,7 @@ ul {
   cursor: pointer;
 }
 .signin:hover {
-  background: linear-gradient(to right, rgb(223, 57, 35), rgb(189, 48, 13));
+  background: linear-gradient(to right, #f7ba2c, #d3321d);
   color: #ffffff;
 }
 .signup:hover {
@@ -178,7 +181,7 @@ ul {
   transform: translateY(-50px);
   box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
 }
-.dropdown:hover .dropdown_container {
+.dropdown a:hover .dropdown_container {
   opacity: 1;
   transform: translateY(0);
 }
