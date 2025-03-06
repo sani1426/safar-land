@@ -40,21 +40,21 @@ const Navigation = () => {
           </div>
           <div class="sign_container">
             <Link class="signup" href="#">
-              <span >
+              <span className="text-xl" >
               <IoPersonCircleOutline />
               </span>
             
               <span>ثبت نام</span>
             </Link>
             <Link class="signin" href="#">
-              <span >
+              <span className="text-xl">
               <MdLogin />
               </span>
            
               <span>ورود</span>
             </Link>
             <button className="menu-button " >
-              <span className="text-xl px-1 py-3">
+              <span className="text-2xl p-1">
               <RiMenuFill />
               </span>
             

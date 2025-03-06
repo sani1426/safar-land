@@ -236,7 +236,6 @@ ul {
   cursor: pointer;
   transition: all ease 0.2s;
   border-radius: 100%;
-  font-size: 2rem;
 }
 
 
@@ -307,7 +306,7 @@ ul {
   border-radius: 10px;
   cursor: pointer;
   transition: all ease 0.4s;
-  font-size: 1.5rem;
+  font-size: 25px;
 }
 .header-search span:hover {
   background-color: rgb(255, 120, 71);
