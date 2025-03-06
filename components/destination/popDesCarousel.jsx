@@ -1,10 +1,17 @@
-import { destination_Slidde_src } from "@/constance/index";
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
-function PopDesCarousel() {
+
+import React from 'react';
+import { Carousel } from 'antd';
+import { destination_Slidde_src } from '@/constance';
+
+
+const contentStyle = {
+    height: '100px',
+    color: '#fff',
+    lineHeight: '160px',
+    textAlign: 'center',
+    borderRadius : '10px'
+  };
   let settings = {
     dots: false,
     centerMode: true,
@@ -43,19 +50,24 @@ function PopDesCarousel() {
       }
     ]
   };
-  return (
-    <div className="slider-container">
-      <Slider {...settings}>
-        {
-            destination_Slidde_src.map(img => (
-                <div key={img.id}>
-                <img src={img.src} alt="" />
-              </div>
-            ))
-        }
-      </Slider>
-    </div>
-  );
-}
 
-export default PopDesCarousel;
+const HeaderCarousel = () => (
+  <Carousel {...settings} >
+
+    {
+        destination_Slidde_src.map(img => (
+            <div className={contentStyle}  key={img.id}>
+            <img className='w-full h-full rounded-md object-cover'  src={img.src} alt="" />
+          </div>
+        ))
+    }
+   
+
+  </Carousel>
+);
+export default HeaderCarousel;
+
+
+
+
+
