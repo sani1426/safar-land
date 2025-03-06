@@ -1,3 +1,5 @@
+"use client"
+
 import Link from "next/link";
 import { FcMindMap } from "react-icons/fc";
 import { MdLogin } from "react-icons/md";
