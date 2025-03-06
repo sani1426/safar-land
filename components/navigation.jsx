@@ -53,13 +53,14 @@ const Navigation = () => {
            
               <span>ورود</span>
             </Link>
-            <button className="menu-button " >
-              <span className="text-2xl p-1">
+           
+          
+            
+          
+          </div>
+          <span className="text-3xl py-[.5rem] px-[.7rem] md:hidden">
               <RiMenuFill />
               </span>
-            
-            </button>
-          </div>
         </div>
       </header>
      );

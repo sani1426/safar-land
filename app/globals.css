@@ -306,7 +306,7 @@ ul {
   border-radius: 10px;
   cursor: pointer;
   transition: all ease 0.4s;
-  font-size: 25px;
+  font-size: 37px;
 }
 .header-search span:hover {
   background-color: rgb(255, 120, 71);
@@ -329,9 +329,7 @@ ul {
   .sign_container a{
     display: none;
   }
-  .sign_container button{
-    display: block;
-  }
+
   .nav_list{
     display: none;
   }
