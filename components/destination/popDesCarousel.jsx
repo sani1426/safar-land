@@ -1,9 +1,11 @@
-import { destination_Slidde_src } from "@/constance";
+import { destination_Slidde_src } from "@/constance/index";
 import React from "react";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 function PopDesCarousel() {
-  var settings = {
+  let settings = {
     dots: false,
     centerMode: true,
     infinite: true,
