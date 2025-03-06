@@ -5,7 +5,7 @@ import { Carousel } from 'antd';
 import { header_Slidde_src } from '@/constance';
 
 const contentStyle = {
-    height: '60vh',
+    height: '70vh',
     color: '#fff',
     lineHeight: '160px',
     textAlign: 'center',
@@ -14,7 +14,7 @@ const contentStyle = {
   };
 
 const HeaderCarousel = () => (
-  <Carousel autoplay  draggable={true} autoplaySpeed={2000} infinite={true}>
+  <Carousel autoplay  draggable={true} autoplaySpeed={3000} infinite={true}>
 
     {
         header_Slidde_src.map(img => (

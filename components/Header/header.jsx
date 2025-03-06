@@ -6,7 +6,7 @@ import HeaderTitle from "./headerTitle";
 
 const Header = () => {
     return ( 
-        <header className="hero_section w-full overflow-hidden h-[100vh]  ">
+        <header className="hero_section w-full h-[100vh] overflow-hidden">
           
             <HeaderTitle  />
             <HeaderDearchBox  />
