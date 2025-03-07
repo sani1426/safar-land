@@ -362,7 +362,7 @@ ul {
   @apply w-full h-[220px] rounded-md pb-2
 }
 .card h1{
-  @apply absolute text-lg text-center top-[160px] left-[10px] text-white z-2
+  @apply absolute text-lg text-center top-[160px] left-[10px] text-white 
 }
 .card h2{
   padding: .5rem;
