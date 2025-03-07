@@ -9,7 +9,7 @@ const Residence = () => {
         <section className="flexCard container ">
             {
                 residance_Slidde_src.map(item =>(
-                    <CardItem key={item.id} src={item.src} title={item.title} />
+                    <CardItem key={item.id} id={item.id} src={item.src} title={item.title} />
                 ))
             }
         </section>

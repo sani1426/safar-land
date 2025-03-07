@@ -1,8 +1,9 @@
+import Link from "next/link";
 
 
-const CardItem = ({src , title}) =>{
+const CardItem = ({src , title , id}) =>{
   return (
-    <div className="card">
+    <Link href={`/destination/${id}`} className="card">
     <img  src={src} alt={title} />
     <h1 className="text-lg text-orange-600" >1900000 تومان</h1>
     <h2>my name is sman</h2>
@@ -11,7 +12,7 @@ const CardItem = ({src , title}) =>{
       <p>wont</p>
     </div>
     
-  </div>
+  </Link>
   )
 }
 export default CardItem;

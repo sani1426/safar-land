@@ -5,7 +5,7 @@ const DestinationDetail = ({params}) => {
     console.log(id);
     return ( 
         <div>
-
+            اقامتگاه {id}
         </div>
      );
 }
