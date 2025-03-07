@@ -8,10 +8,10 @@ import { destination_Slidde_src } from '@/constance';
 const contentStyle = {
     height: '60px',
     color: '#fff',
-    lineHeight: '160px',
+   
     textAlign: 'center',
     borderRadius : '10px',
-    paddingX : '.7rem'
+    padding : '.7rem'
   };
   let settings = {
     dots: false,

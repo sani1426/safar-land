@@ -1,6 +1,8 @@
 import HeaderCarousel from "@/components/Header/HeaderLider";
 import Header from "@/components/Header/header";
 import PopularDestination from "@/components/destination/popDestination";
+import ResContainer from "@/components/residence/ResContainer";
+
 
 
 
@@ -15,6 +17,9 @@ export default function Home() {
 </div>
 <div>
     <PopularDestination/>
+</div>
+<div>
+    <ResContainer/>
 </div>
 
 </div>

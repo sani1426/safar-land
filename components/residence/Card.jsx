@@ -3,13 +3,13 @@
 import React from 'react';
 import { Card } from 'antd';
 const { Meta } = Card;
-const App = () => (
+const CardItem = ({src , title}) => (
   <Card
     hoverable
   
-    cover={<img alt="example" src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png" />}
+    cover={<img alt={title} src={src} />}
   >
     <Meta title="Europe Street beat" description="www.instagram.com" />
   </Card>
 );
-export default App;
+export default CardItem;
