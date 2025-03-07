@@ -11,7 +11,7 @@ const contentStyle = {
    
     textAlign: 'center',
     borderRadius : '10px',
-    padding : '.7rem'
+  margin : '.7rem'
   };
   let settings = {
     dots: false,
