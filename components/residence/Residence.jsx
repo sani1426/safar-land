@@ -6,7 +6,7 @@ import CardItem from "./Card";
 
 const Residence = () => {
     return ( 
-        <section className="flex gap-4 flex-wrap ">
+        <section className="flexCard ">
             {
                 residance_Slidde_src.map(item =>(
                     <CardItem key={item.id} src={item.src} title={item.title} />

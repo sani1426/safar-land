@@ -345,3 +345,33 @@ ul {
     gap: 2rem;
   }
 }
+
+
+
+
+.flexCard {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center p-4 w-[100vw]  my-8 mx-auto
+}
+
+.card{
+  @apply  rounded-lg mb-8 shadow-md relative
+}
+
+
+.card img{
+  @apply w-full h-[220px] rounded-md pb-2
+}
+.card h1{
+  @apply absolute text-lg text-center top-[160px] left-[10px] text-white z-2
+}
+.card h2{
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+.card div{
+display: flex;
+justify-content: space-between;
+padding: .5rem 1rem;
+background-color: aqua;
+margin: .5rem;
+}
