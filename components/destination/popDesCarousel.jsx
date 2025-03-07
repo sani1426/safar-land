@@ -6,7 +6,7 @@ import { destination_Slidde_src } from '@/constance';
 
 
 const contentStyle = {
-    height: '60px',
+ 
     color: '#fff',
    
     textAlign: 'center',
