@@ -4,8 +4,8 @@ const CardItem = ({src , title}) =>{
   return (
     <div className="card">
     <img  src={src} alt={title} />
-    <h1 >this is me</h1>
-    <h2>19000000 تومان</h2>
+    <h1 className="text-lg text-orange-600" >1900000 تومان</h1>
+    <h2>my name is sman</h2>
     <div >
       <p>dont</p>
       <p>wont</p>

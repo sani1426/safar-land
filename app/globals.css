@@ -37,10 +37,7 @@ a {
 ul {
   list-style-type: none;
 }
-.container {
-  width: 85%;
-  margin: 0 auto;
-}
+
 
 
 
@@ -350,11 +347,11 @@ ul {
 
 
 .flexCard {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center p-4 w-[100vw]  my-8 mx-auto
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center p-4 w-[100vw]  my-8 mx-auto container
 }
 
 .card{
-  @apply  rounded-lg mb-8 shadow-md relative
+  @apply  rounded-lg mb-8 shadow-md relative bg-slate-50
 }
 
 
@@ -369,9 +366,5 @@ ul {
   font-size: 1.2rem;
 }
 .card div{
-display: flex;
-justify-content: space-between;
-padding: .5rem 1rem;
-background-color: aqua;
-margin: .5rem;
+  @apply flex justify-between py-2 px-4 bg-gray-100 m-2 rounded-md
 }
