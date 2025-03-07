@@ -232,21 +232,21 @@ ul {
   color: orangered;
   font-size: 3rem;
 
-    animation: title-color-animation 1s;
+    animation: title-color-animation 1.5s;
   margin-bottom: 3rem;
 }
 .header-desc {
   color: white;
 
   font-size: 1rem;
-  animation: title-color-animation 1s;
+  animation: title-color-animation 1.5s;
   margin-top: .5rem;
 }
 
 @keyframes title-animation {
   0% {
     opacity: 0;
-    transform: translateY(-130px);
+    transform: translateY(-180px);
   }
   100% {
     opacity: 1;
@@ -256,7 +256,7 @@ ul {
 @keyframes title-color-animation {
   0% {
     opacity: 0;
-    transform: translateY(130px);
+    transform: translateY(180px);
   }
   100% {
     opacity: 1;

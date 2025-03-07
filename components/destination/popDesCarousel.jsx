@@ -58,7 +58,7 @@ const HeaderCarousel = () => (
     {
         destination_Slidde_src.map(img => (
             <div className={contentStyle}  key={img.id}>
-            <img className='w-full h-[90%] rounded-md object-cover'  src={img.src} alt="" />
+            <img className='w-[135px] h-[105px] rounded-md object-cover'  src={img.src} alt="" />
             <p className='text-orange-500 pt-[10px]'>{img.title}</p>
           </div>
         ))
