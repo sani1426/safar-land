@@ -3,6 +3,7 @@
 import React from 'react';
 import { Carousel } from 'antd';
 import { destination_Slidde_src } from '@/constance';
+import Link from 'next/link';
 
 
 const contentStyle = {
@@ -37,15 +38,15 @@ const contentStyle = {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
-          initialSlide: 2
+    
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1
         }
       }
@@ -58,7 +59,9 @@ const HeaderCarousel = () => (
     {
         destination_Slidde_src.map(img => (
             <div className={` mx-auto ${contentStyle}`}  key={img.id}>
+             
             <img className='w-[135px] h-[105px] md:w-[150px] md:h-[135px] lg:w-[135px] lg:h-[105px] rounded-md object-cover'  src={img.src} alt="" />
+            
             <p className='text-orange-500 pt-[10px]'>{img.title}</p>
           </div>
         ))
