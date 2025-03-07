@@ -20,7 +20,7 @@ const contentStyle = {
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true ,
-    slidesToShow: 7,
+    slidesToShow: 8,
     slidesToScroll: 2,
     initialSlide: 0,
     speed: 500,
@@ -57,8 +57,8 @@ const HeaderCarousel = () => (
 
     {
         destination_Slidde_src.map(img => (
-            <div className={contentStyle}  key={img.id}>
-            <img className='w-[135px] h-[105px] rounded-md object-cover'  src={img.src} alt="" />
+            <div className={` mx-auto ${contentStyle}`}  key={img.id}>
+            <img className='w-[135px] h-[105px] md:w-[150px] md:h-[135px] lg:w-[135px] lg:h-[105px] rounded-md object-cover'  src={img.src} alt="" />
             <p className='text-orange-500 pt-[10px]'>{img.title}</p>
           </div>
         ))

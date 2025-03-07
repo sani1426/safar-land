@@ -37,11 +37,7 @@ export const destination_Slidde_src = [
         src : '/de-carossel-slide4.jpg',
         title : 'چمران'
     },
-    {
-        id : 5 ,
-        src : '/de-carossel-slide5.jpg',
-        title : 'چمران'
-    },
+  
     {
         id : 6 ,
         src : '/de-carossel-slide6.jpg',
@@ -67,11 +63,7 @@ export const destination_Slidde_src = [
         src : '/de-carossel-slide4.jpg',
         title : 'چمران'
     },
-    {
-        id : 11 ,
-        src : '/de-carossel-slide5.jpg',
-        title : 'چمران'
-    },
+   
     {
         id : 12 ,
         src : '/de-carossel-slide6.jpg',
@@ -104,11 +96,7 @@ export const residance_Slidde_src = [
         src : '/de-carossel-slide4.jpg',
         title : 'چمران'
     },
-    {
-        id : 5 ,
-        src : '/de-carossel-slide5.jpg',
-        title : 'چمران'
-    },
+ 
     {
         id : 6 ,
         src : '/de-carossel-slide6.jpg',
