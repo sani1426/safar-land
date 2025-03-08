@@ -1,5 +1,6 @@
 import HeaderCarousel from "@/components/Header/HeaderLider";
 import Header from "@/components/Header/header";
+import Contact from "@/components/UI/contact";
 import PopularDestination from "@/components/destination/popDestination";
 import ResContainer from "@/components/residence/ResContainer";
 
@@ -20,6 +21,9 @@ export default function Home() {
 </div>
 <div>
     <ResContainer/>
+</div>
+<div>
+    <Contact />
 </div>
 
 </div>

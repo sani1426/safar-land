@@ -34,14 +34,14 @@ const Navigation = () => {
           </div>
           <div className="sign_container">
             <Link class="signup" href="#">
-              <span className="text-xl" >
+              <span title="ثبت نام" className="text-xl" >
               <IoPersonCircleOutline />
               </span>
             
               <span>ثبت نام</span>
             </Link>
             <Link class="signin" href="#">
-              <span className="text-xl">
+              <span title="ورود" className="text-xl">
               <MdLogin />
               </span>
            

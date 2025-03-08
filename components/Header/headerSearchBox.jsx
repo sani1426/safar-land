@@ -6,7 +6,7 @@ const HeaderDearchBox = () => {
     return (
         <div className="header-search container">
         <input type="text" placeholder="کد محل اقامت گاه" />
-        <span>
+        <span title="جستجو">
         <IoSearch />
         </span>
       
