@@ -1,17 +1,12 @@
 
 
-import { residance_Slidde_src } from "@/constance";
-import Image from "next/image";
 
 
 
 const DestinationDetail = ({params}) => {
-    const  {id} = params
+
    
 
-
-        const result = residance_Slidde_src.find(item => {
-            item.id === id  })   
 
    
     return ( 
