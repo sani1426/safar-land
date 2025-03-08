@@ -7,7 +7,7 @@ import mountains from "../../public/heaader.jpg";
 
 const Header = () => {
     return ( 
-        <header className="hero_section w-full h-[100vh] overflow-hidden">
+        <header className="hero_section overflow-hidden">
             <div>
             <Image
         alt="Mountains"
