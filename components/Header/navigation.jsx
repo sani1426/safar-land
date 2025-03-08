@@ -24,23 +24,11 @@ const Navigation = () => {
           </Link>
           <div className="nav">
             <ul className="nav_list">
-              <li className="nav-item"><Link href="#">خانه</Link></li>
+              <li className="nav-item"><Link href="/">خانه</Link></li>
               <li className="nav-item"><Link href="/aboutus">درباره ما</Link></li>
-              <li className="nav-item"><Link href="#">اقامتگاه ها</Link></li>
+              <li className="nav-item"><Link href="/destination">اقامتگاه ها</Link></li>
               <li className="nav-item dropdown">
                 <Link href="#">اجاره ساختمان</Link>
-                <div className="dropdown_container">
-                  <div className="dropdown_img_container">
-                
-                  </div>
-                  <div>
-                    <ul>
-                      <li><a href="#">شماره 1</a></li>
-                      <li><a href="#">شماره 2</a></li>
-                      <li><a href="#">شماره 3</a></li>
-                    </ul>
-                  </div>
-                </div>
               </li>
             </ul>
           </div>

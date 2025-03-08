@@ -3,6 +3,7 @@
 import React from 'react';
 import { Carousel } from 'antd';
 import { header_Slidde_src } from '@/constance';
+import Image from 'next/image';
 
 const contentStyle = {
     height: '70vh',
@@ -19,7 +20,7 @@ const HeaderCarousel = () => (
     {
         header_Slidde_src.map(img => (
             <div className={contentStyle}  key={img.id}>
-            <img className='w-full h-full rounded-md object-cover'  src={img.src} alt="" />
+            <Image className='w-full h-full rounded-md object-cover'  src={img.src} alt={img.title} />
           </div>
         ))
     }

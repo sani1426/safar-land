@@ -11,7 +11,7 @@ const ResContainer = () => {
            
             <Residence />
             <div className="container mt-4 mb-4 text-center w-full mx-auto">
-            <Link className="bg-orange-500 text-white  py-2 px-4 rounded-lg w-full hover:bg-white hover:text-orange-300 text-lg transition-all duration-500  "  href='/destination'>
+            <Link className="bg-orange-500 text-white  py-2 px-4 rounded-lg w-[200px] hover:bg-white hover:text-orange-300 text-lg transition-all duration-500  "  href='/destination'>
             مشاهده همه اقامتگاه ها
             </Link>
             </div>

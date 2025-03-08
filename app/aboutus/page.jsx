@@ -15,6 +15,7 @@ const BackgroundPage = () => (
         sizes="100vw"
         style={{
           objectFit: "cover",
+          zIndex : "-1"
         }}
       />
     </div>
