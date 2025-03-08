@@ -5,7 +5,7 @@ import mountains from "../../public/heaader.jpg";
 const BackgroundPage = () => (
   <div>
 
-    <div className={styles.bgWrap}>
+    <div >
       <Image
         alt="Mountains"
         src={mountains}
