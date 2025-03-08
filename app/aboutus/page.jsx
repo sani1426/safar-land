@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import mountains from "/heaader.jpg";
+import mountains from "../../public/heaader.jpg";
 
 const BackgroundPage = () => (
   <div>

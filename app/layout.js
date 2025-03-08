@@ -11,13 +11,13 @@ import localFont from 'next/font/local'
 const myFont = localFont({
   src: [
     {
-      path: './Dirooz.woff2',
+      path: '../public/Dirooz.woff',
       weight: '400',
       style: 'normal',
     },
 
     {
-      path: './Dirooz.woff',
+      path: '../public/Dirooz.woff2',
       weight: '700',
       style: 'bold',
     },
