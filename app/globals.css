@@ -1,15 +1,4 @@
-@font-face {
-  font-family: diroz;
-  src: url(../public/font/diroz/Dirooz.ttf)format(truetype);
-  src: url(../public/font/diroz/Farsi-Digits-Without-Latin/Dirooz-FD-WOL.ttf)format(truetype);
-  src: url(../public/font/diroz/Dirooz.woff)format(woff);
-  src: url(../public/font/diroz/Dirooz.woff2)format(woff2);
-}
-@font-face {
-  font-family: gandom;
-  src: url(../public/font/gandom/Gandom.ttf)format(truetype);
-  src: url(../public/font/gandom/Gandom.woff)format(woff);
-}
+
 
 @tailwind base;
 @tailwind components;
@@ -24,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'diroz';
+
 }
 html {
   scroll-behavior: smooth;
@@ -32,7 +21,7 @@ html {
 a {
   text-decoration: none;
   color: inherit;
-  font-family: 'diroz';
+
 }
 ul {
   list-style-type: none;

@@ -6,6 +6,24 @@ import { AntdRegistry } from '@ant-design/nextjs-registry';
 import NavInfo from "@/components/Header/nav-1";
 import Navigation from "@/components/Header/navigation";
 import Sidebar from "@/components/sidebar";
+import localFont from 'next/font/local'
+ 
+const myFont = localFont({
+  src: [
+    {
+      path: './Dirooz.woff2',
+      weight: '400',
+      style: 'normal',
+    },
+
+    {
+      path: './Dirooz.woff',
+      weight: '700',
+      style: 'bold',
+    },
+
+  ],
+})
 
 
 
@@ -16,7 +34,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fa" dir="rtl">
+    <html lang="fa" dir="rtl" className={myFont.className}>
       <AppContextProvider >
       <body
       >
