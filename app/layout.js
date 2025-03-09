@@ -7,7 +7,8 @@ import Navigation from '@/components/Header/navigation';
 
 import localFont from 'next/font/local';
 import Sidebar from '@/components/Sidebar/Sidebar';
-import Footer from '@/components/footer/footer';
+import Footer from '@/components/Footer/Footer';
+
 
 
 const myFont = localFont({
@@ -40,7 +41,7 @@ export default function RootLayout({ children }) {
           <Navigation />
           <AntdRegistry>{children}</AntdRegistry>
           <Sidebar />
-          <Footer/>
+         <Footer />
         </body>
       </AppContextProvider>
     </html>
