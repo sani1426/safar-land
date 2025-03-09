@@ -1,9 +1,11 @@
+import About from "@/components/about/About";
 
 
-const BackgroundPage = () => (
-  <div>
 
-  </div>
-);
+const AboutUs = () => {
+ return(
+<About />
+ )
+ }
 
-export default BackgroundPage;
+export default AboutUs;
