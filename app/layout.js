@@ -5,8 +5,9 @@ import "./globals.css";
 import { AntdRegistry } from '@ant-design/nextjs-registry';
 import NavInfo from "@/components/Header/nav-1";
 import Navigation from "@/components/Header/navigation";
-import Sidebar from "@/components/sidebar";
+
 import localFont from 'next/font/local'
+import Sidebar from "@/components/Sidebar/Sidebar";
  
 const myFont = localFont({
   src: [
