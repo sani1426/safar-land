@@ -9,10 +9,10 @@ const Sidebar = () => {
   const {activeMenu} = useAppContext()
     return (
         <>
-          <nav  id="sidebar" className={`${activeMenu ? '' : 'close'}`}>
+          <nav   className={`absolute top-0 right-0 z-10 ${activeMenu ? '' : 'close'}`}>
             <ul>
               <li>
-              <span class="logo">سفرلنــــــد</span>
+              <span className="logo">سفرلنــــــد</span>
           <ShowSideBarBtn />
              
               </li>
@@ -45,7 +45,7 @@ const Sidebar = () => {
                 </Link>
               </li>
               <li>
-                <button class="dropdown-btn">
+                <button className="dropdown-btn">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -66,7 +66,7 @@ const Sidebar = () => {
                     <path d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
                   </svg>
                 </button>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <div>
                     <li>
                       <a href="#">تور برنزی</a>
@@ -81,7 +81,7 @@ const Sidebar = () => {
                 </ul>
               </li>
               <li>
-                <button class="dropdown-btn">
+                <button className="dropdown-btn">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     height="24px"
@@ -102,7 +102,7 @@ const Sidebar = () => {
                     <path d="M480-361q-8 0-15-2.5t-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5Z" />
                   </svg>
                 </button>
-                <ul class="sub-menu">
+                <ul className="sub-menu">
                   <div>
                     <li>
                       <a href="#">اقامتگاه برنزی</a>
