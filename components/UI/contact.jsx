@@ -1,7 +1,7 @@
 
 
 
-export default function Contact() {
+export default function ContactUs() {
 
 
   return (

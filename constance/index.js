@@ -19,98 +19,111 @@ export const header_Slidde_src = [
 export const destination_Slidde_src = [
     {
         id : 1 ,
-        src : '/de-carossel-slide1.jpg',
-        title : 'چمران'
+        src : '/carousel-1.webp',
+        title : 'دشت مغان'
     },
     {
         id : 2 ,
-        src : '/de-carossel-slide2.jpg',
-        title : 'چمران'
+        src : '/carousel-2.webp',
+        title : 'گیلان'
     },
     {
         id : 3 ,
-        src : '/de-carossel-slide3.jpg',
-        title : 'چمران'
+        src : '/carousel-3.jpg',
+        title : 'یزد'
     },
     {
         id : 4 ,
-        src : '/de-carossel-slide4.jpg',
-        title : 'چمران'
+        src : '/carousel-4.jpg',
+        title : 'پارک میرمها'
     },
   
     {
+        id : 5 ,
+        src : '/kish-1-carousel-5.webp',
+        title : 'کیش'
+    },
+    {
         id : 6 ,
-        src : '/de-carossel-slide6.jpg',
-        title : 'چمران'
+        src : '/carousel-6.jpg',
+        title : 'جهانگردی'
     },
     {
         id : 7 ,
-        src : '/de-carossel-slide1.jpg',
-        title : 'چمران'
+        src : '/shiraz-1-carousel-7.webp',
+        title : 'شیراز'
     },
     {
         id : 8 ,
-        src : '/de-carossel-slide2.jpg',
-        title : 'چمران'
+        src : '/nasir-molk-carousel-8.webp',
+        title : 'نصیرالملک'
     },
     {
         id : 9 ,
-        src : '/de-carossel-slide3.jpg',
-        title : 'چمران'
-    },
-    {
-        id : 10 ,
-        src : '/de-carossel-slide4.jpg',
-        title : 'چمران'
+        src : '/qeshm-2-carousel-9.webp',
+        title : 'قشم'
     },
    
     {
+        id : 10 ,
+        src : '/carousel-10.jpg',
+        title : 'دبی'
+    },
+    {
+        id : 11 ,
+        src : '/carousel-11.jpg',
+        title : 'آنتالیا'
+    },
+    {
         id : 12 ,
-        src : '/de-carossel-slide6.jpg',
-        title : 'چمران'
+        src : '/kish-3-carousel-12.webp',
+        title : 'کیش'
     },
  
    
 
 ]
-
-
 export const residance_Slidde_src = [
     {
         id : 1 ,
-        src : '/de-carossel-slide1.jpg',
-        title : 'چمران'
+        src : '/kish-1-carousel-5.webp',
+        title : 'کیش'
     },
     {
         id : 2 ,
-        src : '/de-carossel-slide2.jpg',
-        title : 'چمران'
+        src : '/shiraz-1-carousel-7.webp',
+        title : 'شیراز'
     },
     {
         id : 3 ,
-        src : '/de-carossel-slide3.jpg',
-        title : 'چمران'
+        src : '/nasir-molk-carousel-8.webp',
+        title : 'نصیرالملک'
     },
     {
         id : 4 ,
-        src : '/de-carossel-slide4.jpg',
-        title : 'چمران'
+        src : '/qeshm-2-carousel-9.webp',
+        title : 'قشم'
+    },
+    {
+        id : 5 ,
+        src : '/kish-3-carousel-12.webp',
+        title : 'کیش'
     },
  
     {
         id : 6 ,
-        src : '/de-carossel-slide6.jpg',
-        title : 'چمران'
+        src : '/masole.jpg',
+        title : 'ماسوله'
     },
     {
         id : 7 ,
-        src : '/de-carossel-slide1.jpg',
-        title : 'چمران'
+        src : '/tange-bastanak.webp',
+        title : 'تنگه بستانک'
     },
     {
         id : 8 ,
-        src : '/de-carossel-slide2.jpg',
-        title : 'چمران'
+        src : '/arg-karim-khan.webp',
+        title : 'ارگ کریم خان'
     },   
 
 ]
