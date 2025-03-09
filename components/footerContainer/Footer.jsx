@@ -8,10 +8,10 @@ const FooterElem = () => {
     return ( 
         <>
            <div className='bg-gray-200 p-12'>
-        <div className='grid grid-cols-1 text-center md:grid-cols-2'>
+        <div className='grid grid-cols-1 gap-7 text-center md:grid-cols-2'>
           <div className='flex items-center justify-between'>
             <div>
-              <h2 className='mb-8 text-2xl'>دسترسی سریع</h2>
+              <h2 className='mb-8 text-xl md:text-2xl whitespace-nowrap text-nowrap'>دسترسی سریع</h2>
               <ul className='flex flex-col gap-4'>
                 <li>
                   <Link href='/'>خانه</Link>
@@ -28,7 +28,7 @@ const FooterElem = () => {
               </ul>
             </div>
             <div>
-              <h2 className='mb-8 text-2xl'>حامیان سفرلند</h2>
+              <h2 className='mb-8 text-xl md:text-2xl whitespace-nowrap text-nowrap'>حامیان سفرلند</h2>
               <ul className='flex flex-col gap-4'>
                 <li>
                   <Link href='/'>آقای تشریفات</Link>
@@ -45,7 +45,7 @@ const FooterElem = () => {
               </ul>
             </div>
             <div>
-              <h2 className='mb-8 text-2xl'>حامیان سفرلند</h2>
+              <h2 className='mb-8 text-xl md:text-2xl whitespace-nowrap text-nowrap'>حامیان سفرلند</h2>
               <ul className='flex flex-col gap-4'>
                 <li>
                   <Link href='/'>آقای تشریفات</Link>
