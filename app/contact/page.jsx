@@ -1,10 +1,7 @@
-import ContactUs from "@/components/UI/contact";
-
+import ContactUs from '@/components/contact/contact';
 
 const Contact = () => {
-    return ( 
-        <ContactUs />
-     );
-}
- 
+  return <ContactUs />;
+};
+
 export default Contact;

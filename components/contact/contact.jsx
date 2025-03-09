@@ -9,8 +9,12 @@ export default function ContactUs() {
 
      
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl mb-12">Contact sales</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, aliquam. Itaque debitis quasi numquam iure voluptas! Totam, voluptas. Expedita excepturi illo fugiat quam ex ullam, delectus consequatur totam rem facere.</p>
+        <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl mb-12">با ما در ارتباط باشید و انتقادات و پیشنهادات خود را با ما در میان بگذارید.</h2>
+        <p>موضوع یا مطلب خاصی مد نظر شما است که در قالب مقاله در سفرلند منتشر شود؟
+
+در هنگام مرور صفحات سفرلند متوجه مشکل خاصی شده‌اید؟
+
+پیشنهاد یا انتقادی نسبت به یکی از اعضاء تحریریه‌ی سفرلند دارید؟</p>
       
       </div>
       <form action="#" method="POST" className="mx-auto mt-4 max-w-xl sm:mt-4 ">
@@ -53,7 +57,7 @@ export default function ContactUs() {
               <textarea
                 id="message"
                 name="message"
-                rows={4}
+                rows={2}
                 className="block w-full rounded-md bg-white px-3.5 py-2 text-base text-gray-900 outline outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600"
                 defaultValue={''}
               />
@@ -66,7 +70,7 @@ export default function ContactUs() {
             type="submit"
             className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Let's talk
+           ارسال پیام
           </button>
         </div>
       </form>

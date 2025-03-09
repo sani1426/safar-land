@@ -5,7 +5,7 @@ import { FcMindMap } from "react-icons/fc";
 import { MdLogin } from "react-icons/md";
 
 import { IoPersonCircleOutline } from "react-icons/io5";
-import ShowSideBarBtn from "../Sidebar/ShowSidebarButton";
+import ShowSidebarButton from "../UI/showSidebarBtn";
 
 
 
@@ -53,7 +53,7 @@ const Navigation = () => {
             
           
           </div>
-         <ShowSideBarBtn />
+         <ShowSidebarButton  />
         </div>
       </header>
      );
