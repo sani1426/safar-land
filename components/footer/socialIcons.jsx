@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import './socialIcons.css'
+import './socialIconsstyle.css'
 
 const SocialIcons = () => {
     return ( 

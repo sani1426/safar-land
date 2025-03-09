@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import SocialIcons from './socialIcons';
+import SocialIcons from './socialIcons.jsx';
 
 const Footer = () => {
   return (
     <>
-      <footer className='bg-gray-200 p-12'>
+      <div className='bg-gray-200 p-12'>
         <div className='grid grid-cols-1 text-center md:grid-cols-2'>
           <div className='flex items-center justify-between'>
             <div>
@@ -64,7 +64,7 @@ const Footer = () => {
             <SocialIcons />
           </div>
         </div>
-      </footer>
+      </div>
       <div className='flex h-12 w-full items-center justify-center rounded-md bg-orange-400'>
         <h1>کلیه حقوق این وبسایت متعلق به سامان کریمی است</h1>
       </div>
