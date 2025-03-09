@@ -5,7 +5,7 @@ export default function ContactUs() {
 
 
   return (
-    <div className="isolate bg-blue-500 px-6  lg:px-8 flex items-center py-4">
+    <div className="isolate bg-blue-500 px-6  lg:px-8 md:flex md:items-center  py-4">
       <div
         aria-hidden="true"
         className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]"
