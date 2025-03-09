@@ -11,33 +11,16 @@ const Footer = () => {
               <h2 className='mb-8 text-2xl'>دسترسی سریع</h2>
               <ul className='flex flex-col gap-4'>
                 <li>
-                  <Link>خانه</Link>
+                  <Link href='/'>خانه</Link>
                 </li>
                 <li>
-                  <Link>درباره ما</Link>
+                  <Link href='/aboutus' >درباره ما</Link>
                 </li>
                 <li>
-                  <Link>تماس با ما</Link>
+                  <Link href='contact'>تماس با ما</Link>
                 </li>
                 <li>
-                  <Link>اقامتگاه ها</Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h2 className='mb-8 text-2xl'>حامیان سفرلند</h2>
-              <ul className='flex flex-col gap-4'>
-                <li>
-                  <Link>آقای تشریفات</Link>
-                </li>
-                <li>
-                  <Link>سامان کریمی</Link>
-                </li>
-                <li>
-                  <Link>سجاد کریمی</Link>
-                </li>
-                <li>
-                  <Link>مهدی کریمی</Link>
+                  <Link href='/destination'>اقامتگاه ها</Link>
                 </li>
               </ul>
             </div>
@@ -45,16 +28,33 @@ const Footer = () => {
               <h2 className='mb-8 text-2xl'>حامیان سفرلند</h2>
               <ul className='flex flex-col gap-4'>
                 <li>
-                  <Link>آقای تشریفات</Link>
+                  <Link href='/'>آقای تشریفات</Link>
                 </li>
                 <li>
-                  <Link>سامان کریمی</Link>
+                  <Link href='/'>سامان کریمی</Link>
                 </li>
                 <li>
-                  <Link>سجاد کریمی</Link>
+                  <Link href='/'>سجاد کریمی</Link>
                 </li>
                 <li>
-                  <Link>مهدی کریمی</Link>
+                  <Link href='/'>مهدی کریمی</Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className='mb-8 text-2xl'>حامیان سفرلند</h2>
+              <ul className='flex flex-col gap-4'>
+                <li>
+                  <Link href='/'>آقای تشریفات</Link>
+                </li>
+                <li>
+                  <Link href='/'>سامان کریمی</Link>
+                </li>
+                <li>
+                  <Link href='/'>سجاد کریمی</Link>
+                </li>
+                <li>
+                  <Link href='/'>مهدی کریمی</Link>
                 </li>
               </ul>
             </div>
