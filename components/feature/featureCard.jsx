@@ -1,10 +1,10 @@
-import { Card, Col} from 'antd';
+import { Card} from 'antd';
 
 
 const FeatureCard = ({title , desc , icon}) => {
     return ( 
-        <Col span={8}>
-        <Card title={title} variant="borderless">
+        <div>
+        <Card title={title} className='shadow-md' variant="borderless">
             <div className='flex items-center gap-2'>
             <span className='iconclass'>
                 {icon}
@@ -14,7 +14,7 @@ const FeatureCard = ({title , desc , icon}) => {
             </span>
             </div>
         </Card>
-      </Col>
+      </div>
      );
 }
  

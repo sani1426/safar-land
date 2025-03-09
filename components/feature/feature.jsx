@@ -1,11 +1,11 @@
 import { featureCard } from '@/constance';
-import { Row } from 'antd';
+
 import FeatureCard from './featureCard';
 
 const Feature = () => {
   return (
     <div>
-      <Row gutter={16}>
+      <div className='grid grid-cols-1 md:grid-cols-3 justify-center items-center' >
         {featureCard.map((item) => (
           <FeatureCard
             key={item.id}
@@ -14,8 +14,8 @@ const Feature = () => {
             icon={item.icon}
           />
         ))}
-      </Row>
-      <div>
+      </div>
+      <div className='py-8 w-[90%] md:w-[75%] text-center '>
         <h2 className='text-xl'>
           کجارو با تهیه محتوا برای شهرهای مختلف ایران جهان به مرجعی کامل و معتبر
           در معرفی انواع جاهای دیدنی گردشگری، هتل‌ها و رستوران‌های ایران و جهان
