@@ -8,7 +8,7 @@ const FeatureCard = ({ title, desc, icon }) => {
         className='text-center shadow-md hover:shadow-lg'
         variant='borderless'
       >
-        <div className='flex items-center gap-2'>
+        <div className='flex items-center gap-2 text-center'>
           <span className='iconclass'>{icon}</span>
           <span>{desc}</span>
         </div>

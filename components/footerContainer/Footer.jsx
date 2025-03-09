@@ -8,7 +8,7 @@ const FooterElem = () => {
     return ( 
         <>
            <div className='bg-gray-200 p-12'>
-        <div className='grid grid-cols-1 gap-7 text-center md:grid-cols-2'>
+        <div className='grid grid-cols-1 gap-10 text-center md:grid-cols-2'>
           <div className='flex items-center justify-between'>
             <div>
               <h2 className='mb-8 text-xl md:text-2xl whitespace-nowrap text-nowrap'>دسترسی سریع</h2>
