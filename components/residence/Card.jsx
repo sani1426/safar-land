@@ -7,7 +7,7 @@ const CardItem = ({src , title , id}) =>{
     <Link href={`/destination/${id}`} className="card">
     <Image  src={src} alt={title} />
     <h1 className="text-lg text-orange-600" >1900000 تومان</h1>
-    <h2>title</h2>
+    <h2>{title}</h2>
     <div >
       <p>متن تصادفی</p>
       <p>متن تصادفی</p>

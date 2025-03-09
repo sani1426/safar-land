@@ -1,19 +1,11 @@
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-
-
-
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 html {
   scroll-behavior: smooth;
@@ -21,27 +13,20 @@ html {
 a {
   text-decoration: none;
   color: inherit;
-
 }
 ul {
   list-style-type: none;
 }
 
-
-
-
 .hero_section {
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-
-
-.header{
+.header {
   background-color: #ffffff;
-  padding: 1.5rem .9rem;
+  padding: 1.5rem 0.9rem;
 }
 
 .nav-head {
@@ -76,7 +61,7 @@ ul {
   font-size: 1.5rem;
   color: orangered;
 }
-.logo_container span{
+.logo_container span {
   font-size: 2rem;
 }
 .nav_list {
@@ -106,7 +91,7 @@ ul {
   align-items: center;
   gap: 0.75rem;
   transition: all ease-in-out 0.4s;
-  box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
 }
 
 .signin {
@@ -121,8 +106,6 @@ ul {
   gap: 0.75rem;
   transition: all ease-in-out 0.4s;
 }
-
-
 
 .signin:hover {
   background: linear-gradient(to right, #f7ba2c, #d3321d);
@@ -147,7 +130,7 @@ ul {
   transition: all ease-in-out 0.2s;
   opacity: 0;
   transform: translateY(-50px);
-  box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
 }
 .dropdown a:hover .dropdown_container {
   opacity: 1;
@@ -162,7 +145,6 @@ ul {
   height: 100%;
 }
 
-
 .title {
   color: white;
   margin-top: 4rem;
@@ -173,14 +155,14 @@ ul {
   color: orangered;
   font-size: 3rem;
 
-    animation: title-color-animation 1.5s;
+  animation: title-color-animation 1.5s;
   margin-bottom: 3rem;
 }
 .header-desc {
   color: white;
   font-size: 1rem;
   animation: title-color-animation 1.5s;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 @keyframes title-animation {
@@ -213,7 +195,7 @@ ul {
   align-items: center;
   gap: 0.5rem;
   margin-top: 3rem;
-  box-shadow: 0px 2px 7px rgba(0,0,0,0.25);
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.25);
 }
 .header-search input {
   width: 100%;
@@ -242,72 +224,70 @@ ul {
 .header-search input::placeholder {
   font-size: 1.2rem;
   color: black;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 
-
-
-
+.menuButton {
+  display: none;
+}
 
 @media (width < 750px) {
-  .sign_container a{
+  .sign_container a {
     display: none;
   }
-
-  .nav_list{
+  .menuButton {
+    display: block;
+  }
+  .nav_list {
     display: none;
   }
-  .title{
+  .title {
     font-size: 1.5rem;
   }
-  .title-color{
+  .title-color {
     font-size: 2rem;
     margin-top: 2rem;
   }
-  .nav-head{
+  .nav-head {
     display: none;
   }
-  
-
-
 }
 @media (width < 950px) {
- 
-  .sign_container button{
-    font-size: .7rem;
-    padding: .2rem 1rem;
+  .sign_container button {
+    font-size: 0.7rem;
+    padding: 0.2rem 1rem;
   }
-  .nav_list{
-    font-size: .9rem;
+  .nav_list {
+    font-size: 0.9rem;
     gap: 2rem;
   }
-  .row{
+  .row {
     gap: 2rem;
   }
 }
-
-
-
 
 .flexCard {
-  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-center p-4 w-[100vw]  my-8 mx-auto container
+  @apply container mx-auto my-8 grid w-[100vw] grid-cols-1 justify-center gap-4 p-4 md:grid-cols-2 lg:grid-cols-4;
 }
 
-.card{
-  @apply  rounded-lg mb-8 shadow-md relative bg-slate-50
+.card {
+  @apply relative mb-8 rounded-lg bg-slate-50 shadow-md;
 }
 
-
-.card img{
-  @apply w-full h-[220px] rounded-md pb-2
+.card img {
+  @apply h-[220px] w-full rounded-md pb-2;
 }
-.card h1{
-  @apply absolute text-lg text-center top-[160px] left-[10px] text-white 
+.card h1 {
+  @apply absolute left-[10px] top-[160px] text-center text-lg text-white;
 }
-.card h2{
-  padding: .5rem;
+.card h2 {
+  padding: 0.5rem;
   font-size: 1.2rem;
 }
-.card div{
-  @apply flex justify-between py-2 px-4 bg-gray-100 m-2 rounded-md
+.card div {
+  @apply m-2 flex justify-between rounded-md bg-gray-100 px-4 py-2;
+}
+
+.iconclass{
+  font-size: 2rem;
 }

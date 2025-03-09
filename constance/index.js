@@ -1,4 +1,6 @@
-
+import { FcHome } from "react-icons/fc";
+import { FcCustomerSupport } from "react-icons/fc";
+import { FcOk } from "react-icons/fc";
 
 
 export const header_Slidde_src = [
@@ -128,7 +130,26 @@ export const residance_Slidde_src = [
 
 ]
 
-
+export const featureCard = [
+    {
+        id : 1 ,
+        title : 'کم هزینه و با کیفیت ' ,
+        desc : 'اقامت با کیفیت تر و ارزانتر' ,
+        icon : <FcHome/>
+    },
+    {
+        id : 2 ,
+        title : 'ضمانت تحویل اقامتگاه' ,
+        desc : 'تسویه با میزبان بعد از تحویل اقامتگاه' ,
+        icon : <FcOk/>
+    },
+    {
+        id : 3 ,
+        title : 'رزرواسیون ۲۴ ساعته' ,
+        desc : 'خدمات آنلاین در تمام روزهای هفته' ,
+        icon : <FcCustomerSupport/>
+    }
+]
 // export const solutions = [
 //     { name: 'Analytics', description: 'Get a better understanding of your traffic', href: '#', icon: ChartPieIcon },
 //     { name: 'Engagement', description: 'Speak directly to your customers', href: '#', icon: CursorArrowRaysIcon },

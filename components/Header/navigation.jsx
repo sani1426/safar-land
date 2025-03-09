@@ -29,7 +29,7 @@ const Navigation = () => {
               <li className="nav-item"><Link href="/aboutus">درباره ما</Link></li>
               <li className="nav-item"><Link href="/destination">اقامتگاه ها</Link></li>
               <li className="nav-item dropdown">
-                <Link href="#">اجاره ساختمان</Link>
+                <Link href="/contact">تماس با ما</Link>
               </li>
             </ul>
           </div>

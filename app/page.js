@@ -2,6 +2,7 @@ import HeaderCarousel from '@/components/Header/HeaderLider';
 import Header from '@/components/Header/header';
 import Contact from '@/components/contact/contact';
 import PopularDestination from '@/components/destination/popDestination';
+import Feature from '@/components/feature/feature';
 import ResContainer from '@/components/residence/ResContainer';
 
 export default function Home() {
@@ -22,6 +23,10 @@ export default function Home() {
       <div>
         <Contact />
       </div>
+      <div>
+        <Feature />
+      </div>
+
     </div>
   );
 }

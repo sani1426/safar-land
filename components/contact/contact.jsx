@@ -9,7 +9,7 @@ export default function ContactUs() {
 
      
       <div className="mx-auto max-w-2xl text-center">
-        <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl mb-12">با ما در ارتباط باشید و انتقادات و پیشنهادات خود را با ما در میان بگذارید.</h2>
+        <h2 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl mb-12"> و انتقادات پیشنهادات خود را با ما در میان بگذارید.</h2>
         <p>موضوع یا مطلب خاصی مد نظر شما است که در قالب مقاله در سفرلند منتشر شود؟
 
 در هنگام مرور صفحات سفرلند متوجه مشکل خاصی شده‌اید؟
@@ -22,7 +22,7 @@ export default function ContactUs() {
         
         <div>
             <label htmlFor="first-name" className="block text-sm/6 font-semibold text-gray-900">
-              First name
+            نام و نام خانوادگی
             </label>
             <div className="mt-2.5">
               <input
@@ -36,7 +36,7 @@ export default function ContactUs() {
           </div>
           <div>
             <label htmlFor="Email" className="block text-sm/6 font-semibold text-gray-900">
-              Email
+              ایمیل
             </label>
             <div className="mt-2.5">
               <input
@@ -51,7 +51,7 @@ export default function ContactUs() {
      
           <div className="sm:col-span-2">
             <label htmlFor="message" className="block text-sm/6 font-semibold text-gray-900">
-              Message
+             متن پیام
             </label>
             <div className="mt-2.5">
               <textarea
